@@ -20,7 +20,7 @@ The Snake game follows the classic concept where the player controls a snake on 
 
 - **Assambly_Game.cpp:** The C++ file responsible for launching the game and handling screen output. 🚀
 - **game.asm:** The Assembly file that contains all the game logic, including snake movement, fruit generation, and collision detection. 🐍
-- **Assambly_Game.exe:** A precompiled executable file that can be run directly to play the game without needing to compile the code yourself. 🎮
+- **x64/Release/Assambly_Game.exe:** A precompiled executable file that can be run directly to play the game without needing to compile the code yourself. 🎮
 
 ## Play
 
@@ -28,7 +28,7 @@ Run Assambly_Game.exe to play. 🎮
 
 ## How to Play
 
-- Control the snake using the **arrow keys** or **WASD** on your keyboard. ⬆️⬇️⬅️➡️
+- Control the snake using the **WASD** on your keyboard.
 - The objective is to eat as many fruits as possible while avoiding walls and the snake's body. 🍎
 - The snake grows longer each time it eats a fruit, and the score increases. 📈
 - A game over screen will appear if the snake collides with a wall or its own body. 💥
