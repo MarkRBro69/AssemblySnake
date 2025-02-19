@@ -42,7 +42,7 @@ HPEN hPen;
 HBITMAP hBitmap;
 HDC hdcMem;
 
-HBRUSH hBrushEmpty;
+HBRUSH hBrushEmpty = NULL;
 
 int menuSpace = 200;
 int margin = 2;
@@ -191,6 +191,11 @@ int main() {
 
     HWND hwnd = CreateWindow(wc.lpszClassName, _T("Hello, Windows!"), WS_OVERLAPPEDWINDOW,
         windowOffsetX, windowOffsetY, windowSide + menuSpace, windowSide, NULL, NULL, wc.hInstance, NULL);
+
+    if (hwnd == NULL) {
+        std::cerr << "CreateWindow failed!" << std::endl;
+        return 1;  // Завершить программу с ошибкой
+    }
 
     ShowWindow(hwnd, SW_SHOWDEFAULT);
     UpdateWindow(hwnd);

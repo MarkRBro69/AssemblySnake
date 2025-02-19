@@ -312,9 +312,7 @@ Game_Turn ENDP
 Game_Loop PROC
 ; Game loop
     _loop:
-        sub rsp, 40
         call Read_Msg
-        add rsp, 40
         mov rax, [rsp + 24]
         cmp rax, WM_QUIT
         je _exit
