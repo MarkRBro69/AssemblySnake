@@ -8,6 +8,10 @@ In the future, the game will feature a menu system, a scoring mechanism, and a l
 
 The Snake game follows the classic concept where the player controls a snake on the screen. The snake grows each time it eats a fruit. The player's objective is to avoid crashing into walls or the snake's own body. 🚧
 
+## Gameplay Video
+
+[Gameplay Video](https://github.com/MarkRBro69/AssemblySnake/blob/main/video/snake_gameplay.mp4)
+
 ## Current Features:
 - **Game Logic:** Implemented in Assembly. ⚡
 - **Input Handling:** Key presses (Arrow keys or WASD) are processed directly in Assembly. ⌨️
@@ -45,4 +49,3 @@ The following features will be added in future updates:
 ## Contributing
 
 If you'd like to contribute to the project or suggest improvements, feel free to fork the repository and create a Pull Request. All contributions are welcome! 🤝
-
